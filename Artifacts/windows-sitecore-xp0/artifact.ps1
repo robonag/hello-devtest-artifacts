@@ -15,4 +15,4 @@ cd "C:\temp\Sitecore IKEA"
 Get-ChildItem -Recurse | Unblock-File
 
 
-iex '.\install sc9.ps1'
+& '.\install sc9.ps1'
