@@ -1,1 +1,6 @@
-New-Item -ItemType "Directory" -Name "this wokks" -Path "C:\"
+[CmdletBinding()]
+param(
+    [string] $InstallationZipUrl
+)
+
+New-Item -ItemType "Directory" -Name "InstallationZipUrl" -Path "C:\"
