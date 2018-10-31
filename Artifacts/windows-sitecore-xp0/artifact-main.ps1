@@ -1,3 +1,8 @@
+[CmdletBinding()]
+param(
+    [string] $InstallationZipUrl
+)
+
 function Handle-LastError
 {
     [CmdletBinding()]
