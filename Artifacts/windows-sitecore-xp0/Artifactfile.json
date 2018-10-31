@@ -18,7 +18,7 @@
         }
     },
     "runCommand": {
-        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./artifact-main.ps1 -InstallationZipUrl ', parameters('installationZipUrl'), '\"')]"
+        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./artifact-main.ps1 -InstallationZipUrl ''', parameters('installationZipUrl'), '''\"')]"
 
     }
 
